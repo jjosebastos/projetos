@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td, table th{
+            border: 1px solid #ccc;
+            padding: 5px; 
+            text-align: center;
+        
+        }
+        caption{
+            caption-side: bottom;
+            font-size: 14px;
+            font-style: italic;
+        }
+        tfoot td, table th {
+            background: #ddd;
+            font-weight: 800;
+        }
+        thead th {
+            background: #ddd;
+            font-style: ;
+        }
+    </style>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <table>
+        <caption>
+        Lorem ipsum dolor sit
+        </caption>
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>     
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>        
+            <tr>
+                <td rowspan="2" colspan="2">Corpo 1</td>
+                <td rowspan="">Corpo 3</td>
+                
+            </tr>               
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"></td>
+                <td>TOTAL:</td>
+            </tr>
+            <tr>
+                <td>Corpo 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
