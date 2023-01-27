@@ -1,0 +1,17 @@
+/* Seletores CSS*/
+/* Child selector: > */
+
+* {
+    margin-left: 10px;
+}
+
+div{
+    color: initial;
+}
+/* 
+.pai > .filha > span >.filha{
+    color: red;
+
+}
+*/
+
