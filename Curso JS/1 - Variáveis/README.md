@@ -15,3 +15,9 @@ Quais são as variáveis e seus diferentes tipos:
 - Numb
 - Array 
 - Object 
+
+#### Dados primitivos
+- const nome = 'Luiz' // String
+- const num = 10.50 // Number
+- const sobrenomeAluno = null // Nulo -> não aponta para local nenhum na memória
+- const aprovado = true // booleano 
